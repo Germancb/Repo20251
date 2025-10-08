@@ -4,6 +4,7 @@ varstr = "Gercogcb"
 print(varnum)
 print(varstr)
 n=5
+print(n)
 def calculate_fibonacci(n):
     if n <= 0:
         return "Input should be a positive integer."
@@ -12,6 +13,7 @@ def calculate_fibonacci(n):
     elif n == 2:
         return 1
     else:
+        print("n value:", n)
         a, b = 0, 1
         for _ in range(2, n):
             a, b = b, a + b
@@ -40,3 +42,4 @@ for email in valid_emails:
 print("Emails no válidos:")
 for email in invalid_emails:
     print(email)
+
