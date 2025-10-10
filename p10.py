@@ -1,8 +1,11 @@
+
+#%% primer bloque
 print("Hola copilot HI")
 varnum = 5
 varstr = "Gercogcb"
 print(varnum)
 print(varstr)
+#%% segundo bloque
 n=5
 print(n)
 def calculate_fibonacci(n):
@@ -19,7 +22,7 @@ def calculate_fibonacci(n):
             a, b = b, a + b
         return b
 print(calculate_fibonacci(n))
-# Funcion que analiza una lista de emails y valida si son corrctos
+#%% Funcion que analiza una lista de emails y valida si son corrctos
 email_list = ["germancb79@gmail.com", "invalid-email", "test@example.com"]
 def validate_emails(email_list):
     import re
@@ -34,7 +37,7 @@ def validate_emails(email_list):
             invalid_emails.append(email)
     
     return valid_emails, invalid_emails
-# Funcion para imprimir emails validos y no validos
+#%%  Funcion para imprimir emails validos y no validos
 valid_emails, invalid_emails = validate_emails(email_list)
 print("Emails válidos:")
 for email in valid_emails:
@@ -43,3 +46,5 @@ print("Emails no válidos:")
 for email in invalid_emails:
     print(email)
 
+
+# %%
